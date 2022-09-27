@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Nav } from './components/Nav';
-import { Main } from './components/Main';
+import Header from './components/Header';
+import Meme from './components/Meme';
 
 export function App() {
   return (
     <div className='container'>
-      <Nav />
-      <Main />
+      <Header />
+      <Meme />
     </div>
   );
 }
